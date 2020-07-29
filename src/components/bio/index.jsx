@@ -8,7 +8,7 @@ export const Bio = () => (
   <StaticQuery
     query={bioQuery}
     render={data => {
-      const { author, social, introduction } = data.site.siteMetadata
+      const { author, introduction } = data.site.siteMetadata
 
       return (
         <div className="bio">
@@ -24,38 +24,10 @@ export const Bio = () => (
               />
               <div className="author-name">
                 <span className="author-name-prefix">Written by</span>
-                <Link to={'/about'} className="author-name-content">
+                <div className="author-name-content">
                   <span>@{author}</span>
-                </Link>
+                </div>
                 <div className="author-introduction">{introduction}</div>
-                <p className="author-socials">
-                  {social.github && (
-                    <a href={`https://github.com/${social.github}`}>GitHub</a>
-                  )}
-                  {social.medium && (
-                    <a href={`https://medium.com/${social.medium}`}>Medium</a>
-                  )}
-                  {social.twitter && (
-                    <a href={`https://twitter.com/${social.twitter}`}>
-                      Twitter
-                    </a>
-                  )}
-                  {social.facebook && (
-                    <a href={`https://www.facebook.com/${social.facebook}`}>
-                      Facebook
-                    </a>
-                  )}
-                  {social.linkedin && (
-                    <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
-                      LinkedIn
-                    </a>
-                  )}
-                  {social.instagram && (
-                    <a href={`https://www.instagram.com/in/${social.instagram}/`}>
-                      Instagram
-                    </a>
-                  )}
-                </p>
               </div>
             </div>
           </div>

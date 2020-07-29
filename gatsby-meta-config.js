@@ -1,16 +1,15 @@
 module.exports = {
   title: `leveloper.dev`,
   description: `Blog posted about ...`,
-  author: `[Your Name]`,
+  author: `[정원희]`,
   introduction: `그저 공부한 것과 한 일을 기록한 노션의 백업.`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  siteUrl: `https://leveloper.netlify.app/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `leveloper97`, // Your GitHub account
+    github: ``, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
-    instagram: `wh_space`,
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [
@@ -19,7 +18,8 @@ module.exports = {
   ],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    // utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: '', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post

@@ -17,6 +17,7 @@
   .author-name-prefix {
     font-size: 90%;
     margin-right: 4px;
+    margin-top: 12px;
   }
 
   .author-name-content {
@@ -27,11 +28,12 @@
     border-radius: 8px;
     transform-origin: center;
     animation: flutter 2s infinite linear;
+    margin-top: 12px;
   }
 
   .author-introduction {
-    margin-top: 4px;
-    font-size: 80%;
+    margin-top: 10px;
+    font-size: 100%;
     line-height: 1.4;
   }
 
@@ -53,18 +55,23 @@
   0% {
     transform: rotate(0deg);
   }
+
   35% {
     transform: rotate(0deg);
   }
+
   40% {
     transform: rotate(-5deg);
   }
+
   60% {
     transform: rotate(5deg);
   }
+
   65% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
@@ -74,18 +81,23 @@
   0% {
     transform: rotate(0deg);
   }
+
   35% {
     transform: rotate(0deg);
   }
+
   40% {
     transform: rotate(-5deg);
   }
+
   60% {
     transform: rotate(5deg);
   }
+
   65% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
