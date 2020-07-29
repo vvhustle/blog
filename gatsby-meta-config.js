@@ -1,7 +1,7 @@
 module.exports = {
   title: `leveloper.dev`,
   description: `Blog posted about ...`,
-  author: `[정원희]`,
+  author: `[Jung Wonhee]`,
   introduction: `그저 공부한 것과 한 일을 기록한 노션의 백업.`,
   siteUrl: `https://leveloper.netlify.app/`, // Your blog site url
   social: {
