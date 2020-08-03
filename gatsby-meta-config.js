@@ -27,8 +27,8 @@ module.exports = {
   // sponsor: {
   //   buyMeACoffeeId: 'jbee',
   // },
-  share: {
-    facebookAppId: '100002406117066', // Add facebookAppId for using facebook share feature v3.2
-  },
+  // share: {
+  //   facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
+  // },
   ga: '', // Add your google analytics tranking ID
 }
