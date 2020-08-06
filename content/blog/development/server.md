@@ -2,7 +2,6 @@
 title: '웹 서버 구축하기(feat.aws+nginx+node.js)'
 date: 2020-07-04 12:21:13
 category: 'server'
-thumbnail: './images/hello.png'
 draft: true
 ---
 
