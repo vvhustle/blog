@@ -20,7 +20,7 @@ GitHubTheme.overrideThemeStyles = () => {
     h1: {
       fontWeight: 800,
       lineHeight: 1.3,
-      fontFamily: 'Catamaran',
+      fontFamily: 'NanumSquare',
     },
 
     h2: {
@@ -28,7 +28,7 @@ GitHubTheme.overrideThemeStyles = () => {
       lineHeight: 1.2,
       marginTop: '56px',
       marginBottom: '20px',
-      fontFamily: 'Catamaran',
+      fontFamily: 'NanumSquare',
     },
 
     ul: {

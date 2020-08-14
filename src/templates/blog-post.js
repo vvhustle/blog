@@ -64,82 +64,31 @@ export default ({
     disqusShortName,
     utterances
   } = comment
-  const {
-    title: postTitle,
-    date,
-    thumbnail
-  } = post.frontmatter
-  const thumbnailSrc = thumbnail ?
-    `${siteUrl}${thumbnail.childImageSharp.fixed.src}` :
-    undefined
 
-  return ( <
-    Layout location = {
-      location
-    }
-    title = {
-      title
-    } >
-    <
-    Head title = {
-      postTitle
-    }
-    description = {
-      post.excerpt
-    }
-    thumbnail = {
-      thumbnailSrc
-    }
-    /> <
-    PostTitle title = {
-      postTitle
-    }
-    /> <
-    PostDate date = {
-      date
-    }
-    /> <
-    PostContainer html = {
-      post.html
-    }
-    /> <
-    SocialShare title = {
-      postTitle
-    }
-    author = {
-      author
-    }
-    /> <
-    Bio / >
-    <
-    PostNavigator pageContext = {
-      pageContext
-    }
-    /> {!!disqusShortName && ( <
-    Disqus post = {
-      post
-    }
-    shortName = {
-      disqusShortName
-    }
-    siteUrl = {
-      siteUrl
-    }
-    slug = {
-      pageContext.slug
-    }
-    />
+
+  return (
+    <Layout location={location} title={title}>
+      <Head title={post.frontmatter.title} description={post.excerpt} />
+      <PostTitle title={post.frontmatter.title} date={post.frontmatter.date} />
+      <PostContainer html={post.html} />
+      <SocialShare title={post.frontmatter.title} author={author} />
+      <Elements.Hr />
+      <Bio />
+      <PostNavigator pageContext={pageContext} />
+      {!!disqusShortName && (
+        <Disqus
+          post={post}
+          shortName={disqusShortName}
+          siteUrl={siteUrl}
+          slug={pageContext.slug}
+        />
+      )}
+      {!!utterances && <Utterences repo={utterances} />}
+    </Layout>
   )
-} {
-  !!utterances && < Utterances repo = {
-    utterances
-  }
-  />} </
-  Layout >
-)
 }
 
-export const pageQuery = graphql `
+export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {
       siteMetadata {
@@ -159,13 +108,7 @@ export const pageQuery = graphql `
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        thumbnail {
-          childImageSharp {
-            fixed(width: 800) {
-              src
-            }
-          }
-        }
+      
       }
     }
   }
