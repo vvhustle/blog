@@ -1,5 +1,5 @@
 ---
-title: 웹 서버 구축하기 (feat. Nginx + Mysql + Nodejs)
+title: 웹 서버 구축하기 (1)  (feat. Nginx + Mysql + Nodejs)
 date: 2020-07-04 12:21:13
 category: 'web-server'
 thumbnail: './images/mac.jpg'
@@ -9,8 +9,8 @@ draft: false
 
 ---
 Nginx + Mysql + Nodejs 스택은 웹 서버 구축은 가장 쉬운 방법 중에 하나입니다.  
-준비물은 리눅스 기반의 OS(ec2, lightsail, amazon linux 혹은 centos7) 입니다.  
-Amazon Linux2에 구축하였으며 명령어만 따라치면 서버가 구축 될 것입니다.  
+준비물은 리눅스 기반의 OS입니다.  
+Amazon Linux2에 구축하였으며 명령어만 따라치면 서버가 구축될 것입니다.  
 
 ### 웹 서버 필수 설정
 ---

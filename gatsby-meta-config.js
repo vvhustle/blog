@@ -18,7 +18,6 @@ module.exports = {
   ],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    // utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
     utterances: '', // Your repository for archive comment
   },
   configs: {

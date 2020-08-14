@@ -34,7 +34,7 @@ pre[class*='language-'] {
   word-break: normal;
   word-wrap: normal;
   line-height: 1.6;
-  font-size: 13px;
+  font-size: 15px;
 
   -moz-tab-size: 2;
   -o-tab-size: 2;
@@ -68,7 +68,7 @@ pre[class*='language-'] {
 
 /* Inline code */
 :not(pre) > code[class*='language-'] {
-  padding: 0.1em 0.6em;
+  padding: 0.2em 0.4em;
   border-radius: 0.2em;
   white-space: normal;
   background: $inline-dimmed-color;

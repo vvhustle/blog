@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-bee",
+  "name": "leveloper.dev",
   "private": true,
-  "description": "Gatsby blog starter template",
+  "description": "Hello World",
   "version": "0.1.0",
-  "author": "Jbee[JaeYeopHan]<ljyhanll@gmail.com>",
+  "author": "leveloper[Wonhee Jung]<leveloper97@gmail.com>",
   "bugs": {
-    "url": "https://github.com/JaeYeopHan/gatsby-starter-bee/issues"
+    "url": "https://github.com/leveloper97/leveloper.dev/issues"
   },
   "dependencies": {
     "gatsby": "^2.2.8",
@@ -66,9 +66,13 @@
     "recursive-readdir": "^2.2.2",
     "signale": "^1.3.0"
   },
-  "homepage": "https://github.com/JaeYeopHan/gatsby-starter-bee#readme",
+  "homepage": "https://leveloper.netlify.app/",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "leveloper",
+    "leveloper.dev",
+    "blog",
+    "devlog"
   ],
   "license": "MIT",
   "main": "n/a",
