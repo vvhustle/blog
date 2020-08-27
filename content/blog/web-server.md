@@ -1,6 +1,6 @@
 ---
-title: 웹 서버 구축하기 (1)  (feat. Nginx + Nodejs + Mysql)
-date: 2020-07-04 12:21:13
+title: 웹 서버 구축하기 (1) nginx, mysql, node 설치 및 기본 설정하기
+date: 2020-06-01 12:21:13
 category: 'web-server'
 thumbnail: './images/mac.jpg'
 draft: false
