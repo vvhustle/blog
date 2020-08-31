@@ -8,9 +8,9 @@ draft: false
 ![](./images/mac.jpg)
 
 ---
-Nginx + Nodejs + Mysql 스택은 웹 서버 구축은 가장 쉬운 방법 중에 하나입니다.  
-준비물은 리눅스 기반의 OS입니다.  
-Amazon Linux2에 구축하였으며 명령어만 따라치면 서버가 구축될 것입니다.  
+Nginx + Nodejs + Mysql 스택은 웹 서버 구축은 가장 쉬운 방법 중에 하나이다.  
+준비물은 리눅스 기반의 OS이다.  
+Amazon Linux2에 구축하였으며 명령어만 따라치면 서버가 구축 된다.
 
 ### 웹 서버 필수 설정
 ---
@@ -22,9 +22,13 @@ sudo yum update
 sudo yum clean all
 
 # 형상 관리 도구 설치 (svn 혹은 git)
-sum yum install svn
+sudo yum install svn
+```
+centos7나 amazone linux2의 방화벽 데몬은 firewalld이다.  
+또한 ipstables 명령어 기능을 firewall-cmd 명령어가 대체한다.  
 
-# 사용할 웹 서버와 node, DB 포트 오픈 (80, 443:nginx, 3000:node, 3306:mysql)
+```bash
+# 사용할 웹 서버와 node, DB 포트 오픈 (80:http, 443:https, 443:nginx, 3000:node, 3306:mysql)
 sudo firewall-cmd --permanent --zone=public --add-service=http
 sudo firewall-cmd --permanent --zone=public --add-service=https
 sudo firewall-cmd --permanent --zone=public --add-port=3000/tcp
