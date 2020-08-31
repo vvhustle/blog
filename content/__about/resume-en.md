@@ -15,7 +15,7 @@ _Hello World !_
 
 </div>
 
-## Tech Stack
+<!-- ## Tech Stack
 
 
 
@@ -34,4 +34,4 @@ _Hello World !_
 2018.01 ~ 2018.02 Kakaogames Game Programmer (Intern)<br>
 2017.03 ~ 2017.06 RGPKOREA Yogiyo IT Team (Intern)<br>
 2017.03 ~ 2017.12 S.O.P.T 20~21th Programmer<br>
-2011.03 ~ 2018.02 Major in CSE, Soongsil University<br>
+2011.03 ~ 2018.02 Major in CSE, Soongsil University<br> -->
