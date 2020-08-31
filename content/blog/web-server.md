@@ -12,14 +12,14 @@ draft: false
     </span>
 </div>
 
----
 
+---
 Nginx + Nodejs + Mysql 스택은 웹 서버 구축은 가장 쉬운 방법 중에 하나이다.  
 준비물은 리눅스 기반의 OS이다.  
 Amazon Linux2에 구축하였으며 명령어만 따라치면 서버가 구축 된다.
 
-### 웹 서버 필수 설정
----
+## 웹 서버 필수 설정
+
 ```bash
 # yum 패키지를 업데이트 합니다.
 sudo yum update
@@ -45,8 +45,8 @@ sudo firewall-cmd --reload
 sudo firewall-cmd --list-ports
 ```
 
-### Nginx 설치
----
+## Nginx 설치
+
 ```bash
 # yum으로 설치 
 sudo yum install -y nginx
@@ -69,8 +69,8 @@ sudo systemctl enable nginx
 sudo journalctl -xe
 ```
 
-### Mysql 설치
----
+## Mysql 설치
+
 ```bash
 # default로 설치되는 maria db 제거
 rpm -qa | grep maria*
@@ -98,8 +98,8 @@ mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY '설정할 비밀번호';
 GRANT ALL PRIVILEGES ON *.* TO '아이디'@'%' IDENTIFIED BY '패스워드';
 ```
 
-### Node 설치
----
+## Node 설치
+
 ```bash
 # 2020년 4월 24일 현재 stable한 12 버전 이상 설치, npm은 node 설치 시 설치됨.
 curl --silent --location https://rpm.nodesource.com/setup_12.x | sudo bash -
@@ -113,8 +113,8 @@ sudo npm install -g express
 sudo npm install -g pm2
 ```
 
-### Nginx와 Nodejs 연동
----
+## Nginx와 Nodejs 연동
+
 ```bash
 # nginx 설정 편집 루트 설정은 nginx 버전마다 상이 1.16인 내 버전 기준
 sudo vi /ect/nginx/nginx.conf
@@ -131,8 +131,8 @@ server {
 }
 ```
 
-### 기타 설정 및 알쓸신잡
----
+## 기타
+
 ```bash
 # sudo 치기 싫으면 root shell로 전환
 sudo su 
@@ -152,9 +152,7 @@ rpm -qa | grep 패키지명*
 ```
 
 ## 참고 자료
----
+
 [https://www.lesstif.com/system-admin/rhel-centos-7-firewalld-22053128.html](https://www.lesstif.com/system-admin/rhel-centos-7-firewalld-22053128.html)
-
-[https://galid1.tistory.com/296](https://galid1.tistory.com/296)
-
+[https://galid1.tistory.com/296](https://galid1.tistory.com/296)  
 [https://zetawiki.com/wiki/MySQL_원격_접속_허용](https://zetawiki.com/wiki/MySQL_%EC%9B%90%EA%B2%A9_%EC%A0%91%EC%86%8D_%ED%97%88%EC%9A%A9)

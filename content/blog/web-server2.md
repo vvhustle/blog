@@ -16,14 +16,14 @@ draft: false
 이전 글에서 웹 서버가 기본적으로 필요로 하는 소프트웨어의 설정 및 기본 설정을 완료하였다.  
 이번에는 직접 서버의 로직을 만들겠다.
 
-### 꼭 필요한 npm 패키지 라이브러리 설치
----
+## 꼭 필요한 npm 패키지 라이브러리 설치
+
 node로 서버를 띄우기 위해서 필요한 최소한의 라이브러리는
 - babel (트랜스파일러)
 - express (미들웨어)
 
-### 선택적인 라이브러리 설치
----
+## 선택적인 라이브러리 설치
+
 - webpack (모듈 번들러)
 - pm2 (프로세스매니저)
 - swagger (GUI api Docs)
@@ -37,16 +37,16 @@ npm install -g pm2
 npm install -g webpack
 ```
 
-### express 프로젝트 생성
----
+## express 프로젝트 생성
+
 ```bash
 express 프로젝트이름
 cd 프로젝트이름
 npm install
 ```
 
-### routes 작성하기
----
+## routes 작성하기
+
 express 프로젝트는 ./bin/www에서
 Listening, port 설정 등을 해준다.  
 따라서 route를 작성하고 app.js에 아래와 같이 추가만 하면 된다.  
@@ -67,8 +67,8 @@ app.use('/add_cash', add_cash);
 app.use('/create_nickname', create_nickname);
 ```
 
-### DB 연동하기
----
+## DB 연동하기
+
 mysql2/promise 패키지 모듈은 node와 mysql이 연동하기 가장 쉽게 잘 되어 있는 모듈이다.  
 별도의 Manager 폴더를 만들고 아래와 같은 DB manager를 구성한다.  
 
@@ -123,8 +123,8 @@ DB config는 필요에 따라 connectionLimit 혹은 waitForConnections 정도�
 }
 ```
 
-### 파일 내려주기
---- 
+## 파일 내려주기
+ 
 서버에서 필요에 따라 데이터 파일 등을 내려 줘야할때가 있다.  
 위에서 DB manager를 만든 것처럼 FileManager를 만들어 아래와 같은 함수를 추가하자.  
 ```javascript
@@ -163,8 +163,8 @@ export async function GetMd5Data() {
 }
 ```
 
-### 구글 API와 연동하기
----
+## 구글 API와 연동하기
+
 필요한 경우 엑셀 시트 등의 구글 Docs를 연동하여 데이터파일을 만들 수 있다.  
 아래의 함수는 시트에서 특정 행, 열에서 데이터를 가져와 파일로 새로 쓰는 함수이다.  
 ```javascript
