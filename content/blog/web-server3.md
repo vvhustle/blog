@@ -7,6 +7,12 @@ draft: false
 ---
 ![](./images/mac.jpg)
 
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        이 정적 페이지는 PC 버전에 최적화되어 있습니다.  
+    </span>
+</div>
+
 ---
 이전 글에서 웹 서버의 로직을 만들었다.  
 이번에는 https 무료 인증 업체 Let's Encrypt을 통해 OpenSSL 인증서를 발급 받겠다.  

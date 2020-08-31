@@ -1,17 +1,25 @@
 ---
-title: 'Unity Coroutine'
+title: '유니티 코루틴 알아보기'
 date: 2020-07-04 12:21:13
 category: 'unity'
 draft: false
 ---
 ![](./images/unity.png)
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        이 정적 페이지는 PC 버전에 최적화되어 있습니다.  
+    </span>
+</div>
+
+---
+이번에는 유니티의 코루틴에 대해서 알아보겠다.
 ### 코루틴 (Co - rotinue); 
 ---
 멀티 쓰레드처럼 병렬적(Parallel)이진 않지만 협력적(Cooperative)이고 동시적(Concurrency)으로 동작하는 방식이다.
 
 일반적으로 함수는 메인 루틴 + 서브루틴으로 구성되는 데 코루틴은 메인 루틴과 병렬적으로 동작하여 여러 entrypoint를 가지고 yield와 resume를 통해 루틴을 중단, 재시작 할 수 있다.
 
-일반적으로 프로그램의 성능 향상을 위해 여러 쓰레드로 프로그램의 작성하여 병렬적으로 처리하지만, 컨텍스트 스위칭 비용이나 교착 등의 이유로 닷넷 프레임워크 기반의 유니티는 C#에서 Threading 클래스를 사용 못하고 monobehavior를 단일 스레드로 제공하여 대안으로 코루틴 사용을 권장한다. 
+일반적으로 프로그램의 성능 향상을 위해 여러 쓰레드로 프로그램을 작성하여 병렬적으로 처리하지만, 컨텍스트 스위칭 비용이나 교착 등의 이유로 닷넷 프레임워크 기반의 유니티는 C#에서 Threading 클래스를 사용 못하고 monobehavior를 단일 스레드로 제공하여 대안으로 코루틴 사용을 권장한다. 
 
 
 ### Unity Corotine 특징

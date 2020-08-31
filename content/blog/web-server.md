@@ -6,8 +6,14 @@ thumbnail: './images/mac.jpg'
 draft: false
 ---
 ![](./images/mac.jpg)
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        이 정적 페이지는 PC 버전에 최적화되어 있습니다.  
+    </span>
+</div>
 
 ---
+
 Nginx + Nodejs + Mysql 스택은 웹 서버 구축은 가장 쉬운 방법 중에 하나이다.  
 준비물은 리눅스 기반의 OS이다.  
 Amazon Linux2에 구축하였으며 명령어만 따라치면 서버가 구축 된다.

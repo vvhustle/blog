@@ -6,6 +6,11 @@ thumbnail: './images/mac.jpg'
 draft: false
 ---
 ![](./images/mac.jpg)
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        이 정적 페이지는 PC 버전에 최적화되어 있습니다.  
+    </span>
+</div>
 
 ---
 이전 글에서 웹 서버가 기본적으로 필요로 하는 소프트웨어의 설정 및 기본 설정을 완료하였다.  
