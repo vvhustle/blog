@@ -1,10 +1,10 @@
 ---
-title: 'cpp 다시보기'
+title: 'C++ 정리하기'
 date: 2019-01-11 00:00:00 +0300
 category: 'cpp'
 draft: false
 ---
-![](./images/cpp_title.PNG)
+![](./images/c++_title.PNG)
 <div style="text-align: center;">
     <span style="font-size:11px; color:grey">
         이 정적 페이지는 PC 버전에 최적화되어 있습니다.  
