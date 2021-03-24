@@ -1,5 +1,5 @@
 ---
-title: 웹 서버 구축하기 (3) Let's Encrypt로 https 인증 받기
+title: 웹 서버 구축하기 (3) Let's Encrypt로 https 인증
 date: 2020-06-03 12:21:13
 category: 'web-server'
 thumbnail: './images/mac.jpg'

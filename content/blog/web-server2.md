@@ -1,5 +1,5 @@
 ---
-title: 웹 서버 구축하기 (2) nodejs로 서버 로직 만들기
+title: 웹 서버 구축하기 (2) nodejs로 서버 로직 구현
 date: 2020-06-02 12:21:13
 category: 'web-server'
 thumbnail: './images/mac.jpg'

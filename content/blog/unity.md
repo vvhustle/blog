@@ -1,5 +1,5 @@
 ---
-title: '유니티 코루틴 알아보기'
+title: 'Unity 정리'
 date: 2020-07-04 12:21:13
 category: 'unity'
 draft: false

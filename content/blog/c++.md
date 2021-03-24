@@ -1,5 +1,5 @@
 ---
-title: 'C++ 정리하기'
+title: 'C++ 정리'
 date: 2019-01-11 00:00:00 +0300
 category: 'cpp'
 draft: false
@@ -14,8 +14,8 @@ draft: false
 ---
 
 ## 입출력
-iostream 라이브러리 내부의 std 이름공간(namespace)에는 입출력과 관련된 함수들이 존재합니다.  
-cin에서 tab, space, enter는 데이터의 경계로 인식합니다.  
+iostream 라이브러리 내부의 std 이름공간(namespace)에는 입출력과 관련된 함수들이 존재한다.  
+cin에서 tab, space, enter는 데이터의 경계로 인식한다.  
 cout에서 >> 연산자를 통해 연속적인 데이터 입력이 가능합니다.  
 endl은 개행 뿐만 아니라 입력 버퍼를 지우는 기능을 합니다.  
 ## 헤더

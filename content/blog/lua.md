@@ -1,5 +1,5 @@
 ---
-title: 루아 프로그래밍 언어 알아보기
+title: Lua 정리
 date: 2019-01-30 00:00:00 +0300
 category: 'lua'
 draft: false
