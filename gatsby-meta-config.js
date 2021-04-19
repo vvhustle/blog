@@ -1,9 +1,9 @@
 module.exports = {
-  title: `leveloper.dev`,
+  title: `dev-log`,
   description: `Blog posted about ...`,
-  author: `[Jung Wonhee]`,
+  author: `[ᴡᴏɴʜᴇᴇ ᴊᴇᴏɴɢ]`,
   introduction: `그저 공부한 것과 한 일을 기록한 노션의 백업.`,
-  siteUrl: `https://leveloper.netlify.app/`, // Your blog site url
+  siteUrl: `https://vvhustle.netlify.app/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: ``, // Your GitHub account
