@@ -2,7 +2,7 @@
 title: 'C++ 정리'
 date: 2019-01-11 00:00:00 +0300
 category: 'cpp'
-draft: false
+draft: true
 ---
 ![](./images/c++_title.PNG)
 <div style="text-align: center;">

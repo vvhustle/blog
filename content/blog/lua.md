@@ -2,7 +2,7 @@
 title: Lua 정리
 date: 2019-01-30 00:00:00 +0300
 category: 'lua'
-draft: false
+draft: true
 ---
 ![](./images/lua.PNG)
 <div style="text-align: center;">

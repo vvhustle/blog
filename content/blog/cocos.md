@@ -2,7 +2,7 @@
 title: 'cocos 정리'
 date: 2019-04-26 00:00:00 +0300
 category: 'cocos'
-draft: false
+draft: true
 ---
 ![](./images/cocos.PNG)
 <div style="text-align: center;">

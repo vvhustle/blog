@@ -2,7 +2,7 @@
 title: 'Unity 정리'
 date: 2020-07-04 12:21:13
 category: 'unity'
-draft: false
+draft: true
 ---
 ![](./images/unity.png)
 <div style="text-align: center;">
