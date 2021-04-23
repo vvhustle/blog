@@ -7,31 +7,43 @@ draft: true
 <div class="about">
 <a href="/" style="font-size: 30px;">🏠</a>
 
-# Jung Wonhee,  Game programmer
+<h1>Tech Stacks</h1>
 
-<div align="center">
+<h1>Projects</h1>
 
-_Hello World !_
 
+<h1>Career</h1>
+<div style="margin-left: 7px; width: 100px; height: 100px; overflow: hidden; float: left;">
+    <a href="https://line.games"><img src = "assets/images/linegames.jpeg"/></a>
+</div>
+<div style="margin-left: 15px; width: 100px; height: 100px; overflow: hidden; float: left">
+    <a href="https://www.kakaogamescorp.com/"><img src = "assets/images/kakaogames.jpeg"/></a>
+</div>
+<div style="margin-left: 15px; width: 100px; height: 100px; overflow: hidden; float: left">
+    <a href="https://deliveryhero.co.kr/"><img src = "assets/images/yogiyo.png"/></a>
+</div>
+<div style="margin-left: 15px; width: 100px; height: 100px; overflow: hidden; float: left">
+    <a href="http://sopt.org"><img src = "assets/images/sopt.jpeg"/></a>
+</div>
+<div style="margin-left: 15px; width: 100px; height: 100px; overflow: hidden; float: left">
+    <a href="http://cse.ssu.ac.kr/"><img src = "assets/images/ssu.jpeg"/></a>
 </div>
 
-<!-- ## Tech Stack
+<div style="clear:left"><br><h1>Favorite</h1>
+<div style="margin-left: 7px; width: 100px; height: 100px; overflow: hidden; float: left;">
+    <img src = "assets/images/t1.png"/></a>
+</div>
+<div style="margin-left: 15px; width: 100px; height: 100px; overflow: hidden; float: left">
+    <img src = "assets/images/lg.jpeg"/></a>
+</div>
+<div style="margin-left: 15px; width: 100px; height: 100px; overflow: hidden; float: left">
+    <img src = "assets/images/apple.jpeg"/></a>
+</div>
+<div style="margin-left: 15px; width: 100px; height: 100px; overflow: hidden; float: left">
+    <img src = "assets/images/aomg.jpeg"/></a>
+</div>
 
-
-
-## Contributions
-
-| `Elbrisa` | `SpiritCatcher` | `DragonFlight` 
-| --- |  --- | --- |
-| ![Default](assets/images/post_img/eb_144.png)| ![Dark](assets/images/post_img/sc_144.png) | ![Forest](assets/images/post_img/df_144.png) 
-
-| `Weather-bot` | `Tube` | `Freety` |
-| --- |  --- | --- |
-| ![Forest](assets/images/post_img/weather_144.jpg) | ![Forest](assets/images/post_img/tube_144.jpg) | ![Forest](assets/images/post_img/freety_144.jpg) |
-
-## Career
-2018.03 ~ Linegames Game Programmer<br>
-2018.01 ~ 2018.02 Kakaogames Game Programmer (Intern)<br>
-2017.03 ~ 2017.06 RGPKOREA Yogiyo IT Team (Intern)<br>
-2017.03 ~ 2017.12 S.O.P.T 20~21th Programmer<br>
-2011.03 ~ 2018.02 Major in CSE, Soongsil University<br> -->
+<p></p>
+<div style="clear:left"><br><h1>Certificate</h1>
+Engineer Information Processing<br>
+SQL Developer
