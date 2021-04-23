@@ -2,7 +2,7 @@ module.exports = {
   title: `dev-log`,
   description: `Blog posted about ...`,
   author: `[ᴡᴏɴʜᴇᴇ ᴊᴇᴏɴɢ]`,
-  introduction: `그저 공부한 것과 한 일을 기록한 노션의 백업.`,
+  introduction: `아무것도 하지 않으면 아무 일도 일어나지 않는다.`,
   siteUrl: `https://vvhustle.netlify.app/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
