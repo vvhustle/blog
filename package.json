@@ -3,9 +3,9 @@
   "private": true,
   "description": "Hello World",
   "version": "0.1.0",
-  "author": "leveloper[Wonhee Jeong]<leveloper97@gmail.com>",
+  "author": "vvhustle[Wonhee Jeong]<vvhustle@gmail.com>",
   "bugs": {
-    "url": "https://github.com/leveloper97/leveloper.dev/issues"
+    "url": "https://github.com/vvhustle/blog/issues"
   },
   "dependencies": {
     "gatsby": "^2.2.8",
